@@ -33,7 +33,6 @@ series_id INTEGER
 
 CREATE TABLE character_books (
 id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-breed TEXT
+character_id TEXT,
+book_id TEXT
 );
