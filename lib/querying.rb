@@ -22,8 +22,8 @@ end
 
 def select_series_title_with_most_human_characters
   "SELECT series.title FROM series
-  INNER JOIN series 
-  ON books.series_id = series.id WHERE series.id=1 ORDER BY(books.year)"
+  INNER JOIN characters 
+  ON series.id = character.series_id WHERE series.id=1 ORDER BY(books.year)"
 end
 
 def select_character_names_and_number_of_books_they_are_in
