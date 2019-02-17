@@ -17,9 +17,9 @@ name TEXT
 
 CREATE TABLE books (
 id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-breed TEXT
+title TEXT,
+year INTEGER,
+series_id TEXT
 );
 
 CREATE TABLE cats (
