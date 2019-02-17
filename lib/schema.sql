@@ -22,9 +22,11 @@ year INTEGER,
 series_id TEXT
 );
 
-CREATE TABLE cats (
+CREATE TABLE characters (
 id INTEGER PRIMARY KEY,
 name TEXT,
-age INTEGER,
-breed TEXT
+motto TEXT,
+species TEXT,
+author_id INTEGER,
+series_id INTEGER
 );
