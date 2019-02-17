@@ -1,6 +1,6 @@
-CREATE TABLE tables (
+CREATE TABLE series (
 id INTEGER PRIMARY KEY,
-name TEXT,
+title TEXT,
 age INTEGER,
 breed TEXT
 );
