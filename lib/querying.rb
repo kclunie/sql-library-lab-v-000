@@ -1,5 +1,5 @@
 def select_books_titles_and_years_in_first_series_order_by_year
-  "SELECT owners.name 
+  "SELECT books.title, books.years 
 FROM owners 
 INNER JOIN cats_owners 
 ON owners.id = cats_owners.owner_id WHERE cats_owners.cat_id = 3;"
