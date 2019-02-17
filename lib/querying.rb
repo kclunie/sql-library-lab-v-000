@@ -7,9 +7,7 @@ end
 
 def select_name_and_motto_of_char_with_longest_motto
     "SELECT character.name, character.motto
-FROM books 
-INNER JOIN series 
-ON books.series_id = series.id WHERE series.id=1 ORDER BY(books.year)"
+FROM charcter ORDER BY(charcter.motto) LIMIT 1"
 end
 
 
