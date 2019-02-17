@@ -5,18 +5,14 @@ author_id INTEGER,
 subgenre_id INTEGER
 );
 
-CREATE TABLE cats (
+CREATE TABLE subgenres (
 id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-breed TEXT
+name TEXT
 );
 
-CREATE TABLE cats (
+CREATE TABLE authors (
 id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-breed TEXT
+name TEXT
 );
 
 CREATE TABLE cats (
