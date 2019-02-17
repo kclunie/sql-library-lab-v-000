@@ -28,6 +28,6 @@ end
 
 def select_character_names_and_number_of_books_they_are_in
   "SELECT characters.name,  FROM characters
-  INNER JOIN character_books ON series.id = characters.series_id 
+  INNER JOIN character_books ON characters.id = character_books.character_id 
   WHERE characters.species = 'human' GROUP BY series.title ORDER BY COUNT(characters.species) DESC LIMIT 1"
 end
