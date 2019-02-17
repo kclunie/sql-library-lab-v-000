@@ -7,7 +7,7 @@ end
 
 def select_name_and_motto_of_char_with_longest_motto
     "SELECT character.name, character.motto
-FROM charcter ORDER BY(charcter.motto) LIMIT 1"
+FROM charcter ORDER BY(character.motto) LIMIT 1"
 end
 
 
